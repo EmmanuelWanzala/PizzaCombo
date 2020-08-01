@@ -62,5 +62,5 @@ function getTotalAmount() {
 }
 
 function clearFields(){
-    document.getElementById(choice).reset();
+    document.getElementById(white).reset();
 }
