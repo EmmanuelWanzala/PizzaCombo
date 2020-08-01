@@ -1,0 +1,228 @@
+ #one{
+    background-image: url("../images/download.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    color: azure;
+}
+.nav{
+    padding-right: 50px;
+    background-color: crimson;
+}
+
+li{
+    display: inline;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+} 
+.late{
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#menu2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#menu2 img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
+/* jjyughjk */
+*{
+    scroll-behavior: smooth;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  
+  .container-full {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    height: 800px;
+  }
+  
+  #welcome {
+    text-align: center;
+    padding-top: 600px;
+    color: white;
+    font-family: 'Fascinate', cursive;
+  }
+  
+  #description {
+    text-align: center;
+    color: white;
+    font-family: 'Fascinate', cursive;
+  }
+  
+  .nav {
+    background-image: url("../images/nav.jpg");
+    height: 60px;
+    display: block;
+    position: sticky;
+    top:0;
+  }
+  
+  .nav ul li {
+    margin: 10px;
+    padding: 0px;
+    float: right;
+    list-style: none;
+    display: block;
+    color: black;
+  }
+  
+  .nav a:hover {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  #abt {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Righteous', cursive;
+  }
+  
+  .img1 {
+    length: 200px;
+    height: 410px;
+  }
+  
+  #para {
+    font-family: 'Righteous', cursive;
+    font-size: 26px;
+  }
+  
+  .text {
+    margin-left: 140px;
+    font-family: 'Righteous', cursive;
+  }
+  
+  .text1 {
+    margin-left: 80px;
+    font-family: 'Righteous', cursive;
+  }
+  
+  .smal {
+    margin-top: 100px;
+    font-family: 'Righteous', cursive;
+  }
+  
+  .menu {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .container {
+    background-color: black;
+    color: white;
+  }
+  
+  .toppings {
+    margin-left: 90px;
+  }
+  
+  .crust {
+    margin-left: 100px;
+  }
+  
+  .order {
+    margin-top: 50px;
+  }
+  
+  .online {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+  }
+  
+  .select {
+    font-family: 'Righteous', cursive;
+    margin-left: 50px;
+  }
+  
+  .sizes {
+    margin-left: 50px;
+  }
+  
+  .toppings {
+    margin-left: 50px;
+  }
+  
+  .crust {
+    margin-left: 50px;
+  }
+  
+  .delivery {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .deli {
+    font-family: 'Righteous', cursive;
+  }
+  
+  .check {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .thanks {
+    font-family: 'Righteous', cursive;
+  }
+  
+  #contact {
+    margin-top: 30px;
+    font-family: 'Righteous', cursive;
+    margin-left: 50px;
+    border-radius: 100%;
+  }
+  
+  .open {
+    margin-top: 30px;
+  }
+  
+  .cust {
+    border-radius: 100%;
+    margin-left: 40px;
+  }
+  
+  .image {
+    border-radius: 100%;
+  }
+  
+  .title {
+    margin-left: 100px;
+  }
+  .select{
+    margin-left:50px;
+  }
+  #name{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+  }
+  
