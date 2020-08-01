@@ -30,9 +30,15 @@ li{
   justify-content: space-evenly;
   align-items: center;
 }
+#menu1 img{
+    width: 200px;
+    height:200px;
+}
+
+
 #menu2{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -40,8 +46,15 @@ li{
     width: 200px;
     height: 200px;
 }
-
-
+#menu3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#menu3 img{
+    width: 200px;
+    height: 200px;
+}
 
 
 
