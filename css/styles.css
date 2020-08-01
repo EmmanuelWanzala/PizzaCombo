@@ -27,9 +27,10 @@ li{
 
 #menu1{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
+
 #menu1 img{
     width: 200px;
     height:200px;
