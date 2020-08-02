@@ -33,7 +33,7 @@ This is an app that enables customers to buy pizzas online from the comfort of t
 
 
 ### AUTHOR
--Wanzala Emmanuel John
+-[Wanzala Emmanuel John]
 
 
 

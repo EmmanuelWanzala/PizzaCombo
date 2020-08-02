@@ -5,17 +5,20 @@
     height: 100vh;
     width: 100%; 
     display: flex;
-
     color: azure;
 
 }
 .nav{
     padding-right: 50px;
-    background-color: crimson;
+    background-color:black;
 }
 
 li{
     display: inline;
+    color: chartreuse;
+    float: right;
+    margin-left: 30px;
+
 }
 .row{
     display: flex;
@@ -62,8 +65,15 @@ li{
 
 
 /* jjyughjk */
+#one h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 400px;
+}
+
 h5{
-  color: dodgerblue;
+  color:white;
 }
 *{
     scroll-behavior: smooth;
@@ -84,7 +94,11 @@ h5{
     color: white;
     font-family: 'Fascinate', cursive;
   }
-  
+  /* .floater{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  } */
   #description {
     text-align: center;
     color: white;
@@ -99,7 +113,7 @@ h5{
     top:0;
   }
   
-  .nav ul li {
+  /* .nav ul li {
     margin: 10px;
     padding: 0px;
     float: right;
@@ -107,7 +121,7 @@ h5{
     display: block;
     color: black;
   }
-  
+   */
   .nav a:hover {
     /* background-color: white; */
     padding: 10px 10px 10px 10px;
@@ -243,7 +257,7 @@ h5{
     text-align: center;
     font-family: 'Righteous', cursive;
   }
-  .drawing{
+  #drawing{
     background-image: url("../images/trial.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
