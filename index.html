@@ -110,12 +110,13 @@
                 <label for="pizzaSize">Choose the size:</label>
                 <select class="form-control" id="pizzaSize" onchange="getSizeValue();">
                   <option value="0">&nbsp;</option>
-                  <option value="500">Small -- Ksh. 500</option>
-                  <option value="700">Medium -- Ksh. 700</option>
-                  <option value="1000">Large -- Ksh. 1000</option>
+                  <option value="1200">Extra Large @Ksh.1200</option>
+                  <option value="1000">Large @Ksh.1000</option>
+                  <option value="800">Medium @Ksh.800</option>
+                  <option value="500">Small @Ksh.500</option>
                 </select>
-                <label for="crust">Chooose the crust:</label>
-                <select class="form-control" id="crust" onchange="getCrust();" required>
+                <label for="TypeOfcrust">Crust type:</label>
+                <select class="form-control" id="crust-type" onchange="getCrust();" required>
                   <option value="0">&nbsp;</option>
                   <option value="200">Cripsy---Ksh.200</option>
                   <option value="100">Stuffed---Ksh.100</option>
@@ -130,6 +131,10 @@
                 <input type="checkbox" id="mushrooms" name="checks" value="100" onclick="getMushroom();">Mushrooms--Ksh.&nbsp;100<br>
                 <input type="checkbox" id="onions" name="checks" value="150" onclick="getOnions();">Onions--Ksh.&nbsp;150&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <input type="checkbox" id="sausage" name="checks" value="100" onclick="getSausage();">Sausage--Ksh.&nbsp;&nbsp;100<br>
+                <input type="checkbox" id="Bacon" name="checks" value="240" onclick="getBacon();">Bacon--Ksh.&nbsp;150&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="ExtraCheese" name="checks" value="190" onclick="getExtraCheese();">Extra Cheese--Ksh.&nbsp;100<br>
+                <input type="checkbox" id="BlackOlives" name="checks" value="190" onclick="getBlackOlives();">Black Olives--Ksh.&nbsp;150&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="Spinach" name="checks" value="130" onclick="getSpinach();">Spinach--Ksh.&nbsp;&nbsp;100<br>
                 <label for="many">Enter Number of pizza?</label>
                 <select class="form-control" id="many" onchange="getNumber();" required>
                   <option value="0">&nbsp;</option>

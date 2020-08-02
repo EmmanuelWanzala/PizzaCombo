@@ -4,10 +4,25 @@ function getSizeValue() {
 }
 
 function getCrust() {
-    var selectedCrust = document.getElementById("crust").value;
+    var selectedCrust = document.getElementById("crust-type").value;
     return parseInt(selectedCrust);
 }
-
+function getSpinach() {
+    var Spinach = 0;
+    var selectedSpinach= document.getElementById("Spinach");
+    if (selectedSpinach.checked === true) {
+       Spinach= 150;
+    }
+    return parseInt(Spinach);
+}
+function getBacon() {
+    var Bacon = 0;
+    var selectedBacon = document.getElementById("Bacon");
+    if (selectedBacon.checked === true) {
+        Bacon = 150;
+    }
+    return parseInt(Bacon);
+}
 function getPepperoni() {
     var pepperoni = 0;
     var selectedPepperoni = document.getElementById("pepperoni");
@@ -16,7 +31,14 @@ function getPepperoni() {
     }
     return parseInt(pepperoni);
 }
-
+function BlackOlives() {
+    var BlackOlives = 0;
+    var selectedBlackOlives = document.getElementById("BlackOlives");
+    if (selectedBlackOlives.checked === true) {
+       BlackOlives = 150;
+    }
+    return parseInt(pepperoni);
+}
 function getMushroom() {
     var mushroom = 0;
     var selectedMushroom = document.getElementById("mushrooms");
@@ -26,7 +48,14 @@ function getMushroom() {
     return parseInt(mushroom);
 
 }
-
+function getExtraCheese() {
+    var ExtraCheese = 0;
+    var selectedExtraCheese = document.getElementById("ExtraCheese");
+    if (selectedExtraCheese.checked === true) {
+        ExtraCheese= 150;
+    }
+    return parseInt(pepperoni);
+}
 
 function getOnions() {
     var onions = 0;
@@ -57,7 +86,7 @@ function getLocation() {
 }
 
 function getTotalAmount() {
-    var totalAmount = (getSizeValue() + getCrust() + getPepperoni() + getMushroom() + getOnions() + getSausage()) * getNumber() + getLocation();
+    var totalAmount = (getSizeValue() + getCrust() + getSpinach() + getBacon() + getPepperoni() + getMushroom() + getExtraCheese() + getOnions() + getSausage()) +getBlackOlives() * getNumber() + getLocation();
     document.getElementById("fourteen3").innerHTML = "You ordered " + getNumber() + " pizza(s)." + " The Delivery cost is "+getLocation()+" Your  total bill is " + (totalAmount);
 }
 
