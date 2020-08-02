@@ -93,3 +93,5 @@ function getTotalAmount() {
 function clearFields(){
     document.getElementById(white).reset();
 }
+
+

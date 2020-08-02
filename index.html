@@ -44,6 +44,7 @@
 </div>
     </div> 
  <!-- MENU  -->
+<div class="drawing">
 <div id="menu1">
 <div class="row">
 <div class="col-md-4">
@@ -85,18 +86,21 @@
 <div class="row">
 <div class="col-md-4">
 <img src="images/imagese.jpeg">
-<h5>Cheese pizza</h5>
+<h5></h5>
 </div>
 <div class="col-md-4">
+  <img src="images/image.jpeg">
+  <h5></h5>
+  </div>
+  <div class="col-md-4">
     <img src="images/wong.jpg">
-    <h5>The Works Pizza</h5>
+    <h5></h5>
 </div>
-<div class="col-md-4">
-<img src="images/image.jpeg">
-<h5>Veggie Pizza</h5>
+    </div>
 </div>
 </div>
-</div>
+
+
 
 <div id="order">
     <h1 id="name">ORDER!</h1>
@@ -127,14 +131,14 @@
                   <option value="150">Thick ---Ksh.150</option>
                 </select>
                 <label for="TypeOftopping">Type of topping:</label><br>
-                <input type="checkbox" id="pepperoni" name="checks" value="150" onclick="getPepperoni();">Pepperoni--Ksh.&nbsp;150&nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="checkbox" id="mushrooms" name="checks" value="100" onclick="getMushroom();">Mushrooms--Ksh.&nbsp;100<br>
-                <input type="checkbox" id="onions" name="checks" value="150" onclick="getOnions();">Onions--Ksh.&nbsp;150&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="checkbox" id="sausage" name="checks" value="100" onclick="getSausage();">Sausage--Ksh.&nbsp;&nbsp;100<br>
-                <input type="checkbox" id="Bacon" name="checks" value="240" onclick="getBacon();">Bacon--Ksh.&nbsp;150&nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="checkbox" id="ExtraCheese" name="checks" value="190" onclick="getExtraCheese();">Extra Cheese--Ksh.&nbsp;100<br>
-                <input type="checkbox" id="BlackOlives" name="checks" value="190" onclick="getBlackOlives();">Black Olives--Ksh.&nbsp;150&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <input type="checkbox" id="Spinach" name="checks" value="130" onclick="getSpinach();">Spinach--Ksh.&nbsp;&nbsp;100<br>
+                <input type="checkbox" id="extraCheese" name="checks" value="190" onclick="getExtraCheese();">Extra Cheese--Ksh.&nbsp;190<br>
+                <input type="checkbox" id="spinach" name="checks" value="130" onclick="getSpinach();">Spinach--Ksh.&nbsp;&nbsp;130<br>
+                <input type="checkbox" id="pepperoni" name="checks" value="200" onclick="getPepperoni();">Pepperoni--Ksh.&nbsp;200&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="mushrooms" name="checks" value="170" onclick="getMushroom();">Mushrooms--Ksh.&nbsp;170<br>
+                <input type="checkbox" id="onions" name="checks" value="100" onclick="getOnions();">Onions--Ksh.&nbsp;100&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="sausage" name="checks" value="200" onclick="getSausage();">Sausage--Ksh.&nbsp;&nbsp;200<br>
+                <input type="checkbox" id="bacon" name="checks" value="220" onclick="getBacon();">Bacon--Ksh.&nbsp;220&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" id="blackOlives" name="checks" value="200" onclick="getBlackOlives();">Black Olives--Ksh.&nbsp;200&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <label for="many">Enter Number of pizza?</label>
                 <select class="form-control" id="many" onchange="getNumber();" required>
                   <option value="0">&nbsp;</option>
@@ -151,20 +155,31 @@
                 </select><br>
               </div>
             </div>
+            <input type="radio" id="pick-up" name="where" value="pick-up">
+                <label for="pick-up">Pick-up</label><br>
+                <input type="radio" id="Delivery" name="where" value="Delivery">
+                <label for="Delivery">Delivery</label><br>
             <div id="location">
               <div class="form-group">
-                <label for="location">Choose the location of delivery:</label>
+                <label for="location">Kindly select the location of delivery if you chose the delivery option above:</label>
                 <select class="form-control" id="delivery" onchange="getLocation();">
                   <option value="0">&nbsp;</option>
-                  <option value="100">Nairobi CBD--Ksh.100</option>
-                  <option value="200">Thika road -- Ksh.200</option>
-                  <option value="300">Rongai--Ksh.300</option>
-                  <option value="200">Ngong road--Ksh. 300</option>
-                  <option value="100">Mombasa road--Ksh.300</option>
-                  <option value="200">Kibra--Ksh.200</option>
-                  <option value="300">Kikuyu--Ksh.300</option>
-                  <option value="100">Westlands--Ksh.100</option>
-                  <option value="200">Eastleigh--Ksh.200</option>
+                  <option value="100">Kasarani</option>
+                  <option value="200">Ngong</option>
+                  <option value="300">Umoja</option>
+                  <option value="200">Kibera</option>
+                  <option value="100">Buruburu</option>
+                  <option value="200">Dandora</option>
+                  <option value="300">Kileleshwa</option>
+                  <option value="100">Karen</option>
+                  <option value="300">Kilimani</option>
+                  <option value="300">Kikuyu</option>
+                  <option value="300">Kiambu Road</option>
+                  <option value="300">Komarock</option>
+                  <option value="300">Kikuyu</option>
+                  <option value="300">Westlands</option>
+                  <option value="300">Kileleshwa</option>
+                  <option value="200">Runda</option>
                 </select>
               </div>
             </div>
@@ -183,7 +198,10 @@
     </div>
   </div>
   <hr>
-
+  
+      </div>
+    </div>
+</div>
 
 
 </body>
