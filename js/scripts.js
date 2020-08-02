@@ -8,20 +8,20 @@ function getCrust() {
     return parseInt(selectedCrust);
 }
 function getSpinach() {
-    var Spinach = 0;
-    var selectedSpinach= document.getElementById("Spinach");
+    var spinach = 0;
+    var selectedSpinach= document.getElementById("spinach");
     if (selectedSpinach.checked === true) {
-       Spinach= 150;
+       spinach= 150;
     }
-    return parseInt(Spinach);
+    return parseInt(spinach);
 }
 function getBacon() {
-    var Bacon = 0;
-    var selectedBacon = document.getElementById("Bacon");
+    var bacon = 0;
+    var selectedBacon = document.getElementById("bacon");
     if (selectedBacon.checked === true) {
-        Bacon = 150;
+        bacon = 150;
     }
-    return parseInt(Bacon);
+    return parseInt(bacon);
 }
 function getPepperoni() {
     var pepperoni = 0;
@@ -31,13 +31,13 @@ function getPepperoni() {
     }
     return parseInt(pepperoni);
 }
-function BlackOlives() {
-    var BlackOlives = 0;
-    var selectedBlackOlives = document.getElementById("BlackOlives");
+function getBlackOlives() {
+    var blackOlives = 0;
+    var selectedBlackOlives = document.getElementById("blackOlives");
     if (selectedBlackOlives.checked === true) {
-       BlackOlives = 150;
+       blackOlives = 150;
     }
-    return parseInt(pepperoni);
+    return parseInt(blackOlives);
 }
 function getMushroom() {
     var mushroom = 0;
@@ -49,12 +49,12 @@ function getMushroom() {
 
 }
 function getExtraCheese() {
-    var ExtraCheese = 0;
-    var selectedExtraCheese = document.getElementById("ExtraCheese");
+    var extraCheese = 0;
+    var selectedExtraCheese = document.getElementById("extraCheese");
     if (selectedExtraCheese.checked === true) {
-        ExtraCheese= 150;
+        extraCheese= 150;
     }
-    return parseInt(pepperoni);
+    return parseInt(extraCheese);
 }
 
 function getOnions() {
