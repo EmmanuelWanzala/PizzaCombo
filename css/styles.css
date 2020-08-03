@@ -13,12 +13,11 @@
     background-color:black;
 }
 
-li{
+nav ul li{
     display: inline;
     /* color: chartreuse;
     float: right;
     margin-left: 30px; */
-
 }
 .row{
     display: flex;
