@@ -33,7 +33,7 @@ function getPepperoni() {
 }
 function getBlackOlives() {
     var blackOlives = 0;
-    var selectedBlackOlives = document.getElementById("blackOlives");
+    var selectedBlackOlives = document.getElementById("blackolives");
     if (selectedBlackOlives.checked === true) {
        blackOlives = 150;
     }
@@ -50,7 +50,7 @@ function getMushroom() {
 }
 function getExtraCheese() {
     var extraCheese = 0;
-    var selectedExtraCheese = document.getElementById("extraCheese");
+    var selectedExtraCheese = document.getElementById("extracheese");
     if (selectedExtraCheese.checked === true) {
         extraCheese= 150;
     }
