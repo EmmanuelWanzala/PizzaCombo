@@ -15,9 +15,9 @@
 
 li{
     display: inline;
-    color: chartreuse;
+    /* color: chartreuse;
     float: right;
-    margin-left: 30px;
+    margin-left: 30px; */
 
 }
 .row{
@@ -265,5 +265,7 @@ h5{
     height: 100vh;
   }
 
-
- 
+#icon{
+  padding-left: 500px;
+}
+  
