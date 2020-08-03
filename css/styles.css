@@ -13,7 +13,7 @@
     background-color:black;
 }
 
-nav ul li{
+li{
     display: inline;
     /* color: chartreuse;
     float: right;
@@ -272,7 +272,7 @@ h5{
     height: 100vh;
   }
 
-.iconic{
+#iconic{
   padding-left: 800px;
   /* background-color: black; */
   padding-top: 0px;
