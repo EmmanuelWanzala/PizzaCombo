@@ -87,7 +87,7 @@ function getLocation() {
 
 function getTotalAmount() {
     var totalAmount = (getSizeValue() + getCrust() + getSpinach() + getBacon() + getPepperoni() + getMushroom() + getExtraCheese() + getOnions() + getSausage()) +getBlackOlives() * getNumber() + getLocation();
-    document.getElementById("fourteen3").innerHTML = "You ordered " + getNumber() + " pizza(s)." + " The Delivery cost is "+getLocation()+" Your  total bill is " + (totalAmount);
+    document.getElementById("hellothere").innerHTML = "You ordered " + getNumber() + " pizza(s)." + " The Delivery cost is "+getLocation()+" Your  total bill is " + (totalAmount);
 }
 
 function clearFields(){
