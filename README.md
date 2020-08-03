@@ -1,6 +1,6 @@
 # PIZZA COMBO APPLICATION
 
-This is an app that enables customers to buy pizzas online from the comfort of their devices.
+This is an app that enables customers to buy pizzas online from Pizza Combo restaurants from the comfort of their devices.
 
 
 ## DESCRIPTION
@@ -10,6 +10,9 @@ This is an app that enables customers to buy pizzas online from the comfort of t
 -The user can then order and decide how to get the order.
 
 -If the order is to be delivered the delivery location of the buyer is also required.
+
+### AUTHOR
+-[Wanzala Emmanuel John](https://emmanuelwanzala.github.io/portfolio/)
 
 
 
@@ -32,9 +35,6 @@ This is an app that enables customers to buy pizzas online from the comfort of t
 
 ### THE LIVE LINK TO THE PIZZA COMBO APPLICATION
 
-
-### AUTHOR
--[Wanzala Emmanuel John](https://emmanuelwanzala.github.io/portfolio/)
 
 
 ### LICENSE
