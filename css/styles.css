@@ -6,13 +6,11 @@
     width: 100%; 
     display: flex;
     color: azure;
-
 }
 .nav{
     padding-right: 50px;
     background-color:black;
 }
-
 li{
     display: inline;
     /* color: chartreuse;
@@ -27,25 +25,20 @@ li{
     display: flex;
     justify-content: space-around;
 }
-
 #menu1{
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 #menu1 img{
     width: 200px;
     height:200px;
 }
-
-
 #menu2{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
 #menu2 img{
     width: 200px;
     height: 200px;
@@ -59,18 +52,12 @@ li{
     width: 200px;
     height: 200px;
 }
-
-
-
-
-/* jjyughjk */
 #one h1{
   display: flex;
   align-items: center;
   justify-content: center;
   padding-left: 400px;
 }
-
 h5{
   color:white;
 }
@@ -79,168 +66,114 @@ h5{
   }
   body {
     overflow-x: hidden;
-  }
-  
+  }  
   .container-full {
-    /* background-image: url("../images/bg.jpg"); */
     background-size: cover;
     height: 800px;
   }
-  
   #welcome {
     text-align: center;
     padding-top: 600px;
     color: white;
     font-family: 'Fascinate', cursive;
   }
-  /* .floater{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-  } */
   #description {
     text-align: center;
     color: white;
     font-family: 'Fascinate', cursive;
   }
-  
   .nav {
-    /* background-image: url("../images/nav.jpg"); */
     height: 60px;
     display: block;
     position: sticky;
     top:0;
   }
-  
-  /* .nav ul li {
-    margin: 10px;
-    padding: 0px;
-    float: right;
-    list-style: none;
-    display: block;
-    color: black;
-  }
-   */
   .nav a:hover {
-    /* background-color: white; */
     padding: 10px 10px 10px 10px;
-  }
-  
+  }  
   #abt {
     text-align: center;
     font-family: 'Righteous', cursive;
     padding-top: 20px;
     padding-bottom: 20px;
-  }
-  
+  }  
   .header {
     text-align: center;
     padding-top: 20px;
     font-family: 'Righteous', cursive;
-  }
-  
+  }  
   .img1 {
-    /* length: 200px; */
     height: 410px;
-  }
-  
+  }  
   #para {
     font-family: 'Righteous', cursive;
     font-size: 26px;
-  }
-  
+  } 
   .text {
     margin-left: 140px;
     font-family: 'Righteous', cursive;
-  }
-  
+  }  
   .text1 {
     margin-left: 80px;
     font-family: 'Righteous', cursive;
-  }
-  
+  }  
   .smal {
     margin-top: 100px;
     font-family: 'Righteous', cursive;
-  }
-  
+  }  
   .menu {
     text-align: center;
     margin-top: 40px;
   }
-  
   .container {
     background-color: black;
     color: white;
   }
-  
   .toppings {
     margin-left: 90px;
   }
-  
   .crust {
     margin-left: 100px;
   }
-  
   .order {
     margin-top: 50px;
   }
-  
   .online {
     text-align: center;
     font-family: 'Righteous', cursive;
   }
-  
   .select {
     font-family: 'Righteous', cursive;
     margin-left: 50px;
   }
-  
   .sizes {
     margin-left: 50px;
   }
-  
   .toppings {
     margin-left: 50px;
   }
-  
   .crust {
     margin-left: 50px;
   }
-  
   .delivery {
     text-align: center;
     margin-top: 40px;
   }
-  
   .deli {
     font-family: 'Righteous', cursive;
   }
-  
   .check {
     text-align: center;
     margin-top: 40px;
   }
-  
   .thanks {
     font-family: 'Righteous', cursive;
   }
-  
-  /* #contact {
-    margin-top: 30px;
-    font-family: 'Righteous', cursive;
-    margin-left: 50px;
-    border-radius: 100%;
-  }
-   */
 #style{
   background-image: url("../images/Supreme-Pizza.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
-
   .open {
     margin-top: 30px;
   }
@@ -274,7 +207,6 @@ h5{
 
 #iconic{
   padding-left: 800px;
-  /* background-color: black; */
   padding-top: 0px;
 }
   
