@@ -227,13 +227,21 @@ h5{
     font-family: 'Righteous', cursive;
   }
   
-  #contact {
+  /* #contact {
     margin-top: 30px;
     font-family: 'Righteous', cursive;
     margin-left: 50px;
     border-radius: 100%;
   }
-  
+   */
+#style{
+  background-image: url("../images/siting.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
   .open {
     margin-top: 30px;
   }
@@ -258,7 +266,7 @@ h5{
     font-family: 'Righteous', cursive;
   }
   #drawing{
-    background-image: url("../images/trial.jpeg");
+    background-image: url("../images/imagesee.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -267,5 +275,7 @@ h5{
 
 .iconic{
   padding-left: 800px;
+  /* background-color: black; */
+  padding-top: 0px;
 }
   
